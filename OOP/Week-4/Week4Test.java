@@ -1,10 +1,10 @@
-import org.junit.Test;
+import org.junit.assertEquals
 
 public class Week4Test {
     @Test
     public void testMax2Int1() {
         assertEquals(5, Week4.max2Int(5, 3));
-    }
+    }   
 
     @Test
     public void testMax2Int2() {
