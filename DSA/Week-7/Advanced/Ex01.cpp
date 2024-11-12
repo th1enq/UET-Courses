@@ -23,13 +23,18 @@ int main() {
     queue<int> que;
     for(int i = 1; i <= n; i++) if(!deg[i]) que.push(i);
 
+    vector<int> res;
+
     while(!que.empty()) {
         int u = que.front(); que.pop();
-        cout << u << " ";
+        res.push_back(u);
         for(int v : adj[u]) {
             if(--deg[v] == 0) que.push(v);
         }
     }
-
+    if(res.size() < n) {
+        return 0;
+    }
+    for(int i = 0; i < n; i++) cout << res[i] << ' ';
     return 0;
 }
