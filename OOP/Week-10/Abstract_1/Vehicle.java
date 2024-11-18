@@ -7,10 +7,10 @@ public abstract class Vehicle {
     /**
      * haha.
      *
-     * @param branch hihi
-     * @param model hihi
+     * @param branch             hihi
+     * @param model              hihi
      * @param registrationNumber hihi
-     * @param owner hihi
+     * @param owner              hihi
      */
     public Vehicle(String branch, String model, String registrationNumber, Person owner) {
         this.branch = branch;
