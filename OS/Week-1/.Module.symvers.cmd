@@ -1,0 +1,1 @@
+savedcmd_/home/th1enq/UET-Courses/OS/Week-1/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/th1enq/UET-Courses/OS/Week-1/Module.symvers -T /home/th1enq/UET-Courses/OS/Week-1/modules.order -i Module.symvers -e 
