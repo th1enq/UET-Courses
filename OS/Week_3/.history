@@ -1,0 +1,22 @@
+ls
+cd ..
+ls
+ls -l
+clear
+ls
+ls
+ls
+cat simple_shell.c
+clear
+cat 		simple_shell.c
+clear
+cat  simple.c
+ls
+cat myfork.c && ls -l
+cat myfork.c
+cat myfork.c & ls -l
+dsdsd
+cat simple_shell.c &
+px aux | grep firefox
+ls -l | wc -l
+cd  CatShell
